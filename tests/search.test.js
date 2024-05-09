@@ -19,7 +19,6 @@ describe("Verifying that the searching functionality behaves correctly", () => {
     await Homepage.agreeWithCookies();
   });
 
-  //action after all tests
   afterAll(async () => {
     await driver.quit();
   });
